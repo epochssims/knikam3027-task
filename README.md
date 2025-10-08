@@ -9,6 +9,7 @@ Create a Shopping Cart where as a Customer, I can add Products to a cart and sub
 * As a **Customer**, the Frontend should be able to submit the Cart
 * As a **Admin**, I should be able to add a Product
 * As a **Admin**, I should be able to remove a Product
+
 #### Backend
 * The API should be able to save a Product to a database
 * The API should be able to delete a Product from a database
@@ -19,3 +20,7 @@ Create a Shopping Cart where as a Customer, I can add Products to a cart and sub
 * You may use whatever frontend framework you prefer
 * You may use whatever Node backend framework you prefer
 * You may use whatever database you prefer
+
+
+
+

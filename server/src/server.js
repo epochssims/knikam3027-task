@@ -17,8 +17,10 @@ connectDB();
 app.use(cors({
   origin: process.env.NODE_ENV === 'production' 
     ? ['https://your-frontend-domain.com'] 
-    : ['http://localhost:3000', 'http://127.0.0.1:3000'],
-  credentials: true
+    : ['http://localhost:5173', 'http://127.0.0.1:5173', 'http://localhost:3000', 'http://127.0.0.1:3000'],
+  credentials: true,
+  methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
+  allowedHeaders: ['Content-Type', 'Authorization']
 }));
 
 app.use(express.json({ limit: '10mb' }));
